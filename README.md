@@ -42,7 +42,7 @@ After all if that - the toy card should resemble:
 ## STEP 4: Add a new toy!
 
 * When a user clicks on the add new toy button - a POST request is sent to http://localhost:3000/toys and the new toy is added to Andy's Toy Collection.
-* The toy should conditionally render to the page.
+* The toy should [optimistically](https://www.reddit.com/r/reactjs/comments/3y80w7/what_is_an_optimistic_update/) render to the page.
 * In order to send a POST request via Fetch, give the Fetch a second argument of an object. This object should specify the method as `POST` and also provide the appropriate headers and the JSONified data for the request. If your request isn't working, make sure your header and keys match the documentation.
 
 ```
