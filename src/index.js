@@ -152,7 +152,7 @@ const handleToyDelete = (event) => {
   // If they cancel, return now, don't execute the rest of the function..
   if(!confirmDelete) return
 
-  // If they clicked OK, carry on and delete...
+  // If they clicked OK, carry on and delete..
 
   const toyId = event.target.dataset.id
 
